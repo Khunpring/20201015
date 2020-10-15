@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Page Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <style type="text/css">
+        a {
+            text-decoration:none;
+        }
+    </style>
+</head>
+
+<body>
+    <div data-role="page" id="menu">
+
+        <div data-role="header" data-theme="b">
+            <h1>Menu</h1>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <div class="ui-grid-b">
+                <div class="ui-block-a" style="height:100%;text-align:center">
+                    <div style="border:1px #0f0 solid;">
+                        <a href="#hamburger" data-transition="pop">
+                            <img src="images/hamburger.png" style="border:1px #f00 solid; width: 80px; margin:5px 15px 18px">
+                            <p>hamburger</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="ui-block-b" style="height : 100%;text-align:center">
+                    <div>
+                        <a href="#cookie" data-transition="flip">
+                            <img src="images/cookie.png" style="width:80px; margin:5px 15px 18px">
+                            <p>cookie</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="ui-block-c" style="height : 100%;text-align:center">
+                    <div>
+                            <a href="cake1.html" rel="external">
+                            <img src="images/cake_big.png" style="width:80px; margin:5px 15px 18px">
+                            <p>cake_big</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui-grid-b">
+                        <div class="ui-block-a" style="height:100%;text-align:center">
+                            <div style="border:1px #0f0 solid;">
+                                <a href="#cake1">
+                                <img src="images/cake1.png" style="border:1px #f00 solid; width: 80px; margin:5px 15px 18px">
+                                    <p style="text-align: center;">cake1</p>
+                                </div>
+                            </div>
+                        <div class="ui-block-b" style="height : 100%;text-align:center">
+                                <div>
+                                        <a href="#coffee">
+                                    <img src="images/coffee.png" style="width:80px; margin:5px 15px 18px">
+                                        <p style="text-align:center;">coffee</p>
+                                    </div>
+                                </div>
+                                     <div class="ui-block-c" style="height : 100%;text-align:center">
+                                        <div>
+                                                <a href="#blueberries">
+                                            <img src="images/blueberries.png" style="width:80px; margin:5px 15px 18px">
+                                                <p style="text-align:center;">blueberries</p>
+                                            </div>
+                                        </div>
+                                    </div>
+        </div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; 2020 All rights reised</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="Vacuum">
+
+        <div data-role="header" data-position="fixed">
+            <h1>hamburger</h1>
+            <a href="#menu" class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power">back</a>
+
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content" style="text-align: center">
+            <image src="images/hamburger.png" width= "70%">
+            <p><a href="#menu">Back to menu</a></p>
+        </div><!-- /content -->
+    
+        <div data-role="footer" data-position="fixed"> 
+            <h4>Page Footer</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+
+    <div data-role="page" id="cookie">
+
+        <div data-role="header">
+            <h1>cookie</h1>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content" style="text-align: center">
+            <img src="images/cookie.png" width= "70%">
+            <p><a href="#menu">Back to menu</a></p>
+        </div><!-- /content -->
+    
+        <div data-role="footer"> 
+            <h4>Page Footer</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+</body>
+
+</html>

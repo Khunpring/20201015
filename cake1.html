@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Page Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+    <div data-role="page" id="bakerymenu">
+
+            <div data-role="header" data-position="fixed" style="background-color:chocolate">
+                <h1>BAKERY</h1>
+                <a href="index.html" rel="external" 
+                        class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power">BACK</a>
+            </div><!-- /header -->
+
+                <div role="main" class="ui-content" style="text-align :center">
+                    <ul data-role="listview" data-inset="true">
+                        <li><a href="#Vacuum cake2">
+                        <img src="./1/cake2.png">
+                        <span class="ui-li-count" style="color:#fff;background-color:red">$120</span>
+                        <h2>Vacuum cake2</h2>
+                        <p>Broken Bells</p></a>
+                    </li>
+                <li><a href="#">
+                        <img src="./1/cake_slice2.png">
+                        <span class="ui-li-count" style="color:#fff;background-color:red">$120</span>
+                        <h2>Cheese cake</h2>
+                        <p>milke</p></a>
+                    </li>
+                <li><a href="#">
+                        <img src="./1/muffin.png">
+                        <span class="ui-li-count" style="color:#fff;background-color:red">$120</span>
+                        <h2>Rasin</h2>
+                        <p>suffle</p></a>
+                    </li>
+                </ul>
+    </div><!-- /content -->
+
+    <div data-role="footer"data-position="fixed"> 
+            <h4>Page Footer</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+
+    <div data-role="page" id="Vacuum cake2">
+
+            <div data-role="header" data-position="fixed">
+                <h1>Vacuum cake2</h1>
+                <a href="#bakerymenu" 
+                    class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power">back</a>    
+            </div><!-- /header -->
+        
+            <div role="main" class="ui-content" style="text-align: center">
+                <image src="./1/cake2.png" width= "20%">
+                <p><a href="#bakerymenu"data transition="pop">Back to menu</a></p>
+            </div><!-- /content -->
+        
+            <div data-role="footer" data-position="fixed"> 
+                <h4>Page Footer</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+</body>
+
+</html>
